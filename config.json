@@ -1,0 +1,22 @@
+{
+    "clientId": "1163800665412337709",
+    "details": "listens to ASMR",
+    "state": "Thinks...",
+    "largeImageKey": "avatar",
+    "largeImageText": "Learning React.JS",
+    "smallImageKey": "12",
+    "smallImageText": "Crying because it doesn't work out",
+    "instance": false,
+    "partySize": 1,
+    "partyMax": 5,
+    "buttons": [
+        {
+            "label": "YouTube Channel",
+            "url": "https://www.youtube.com/channel/UCH-f_szwD2msRXhwMmePeiA"
+        },
+        {
+            "label": "Twitch Channel",
+            "url": "https://twitch.tv/kredwi"
+        }
+    ]
+}
