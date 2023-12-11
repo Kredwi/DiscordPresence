@@ -5,7 +5,7 @@ const date = new Date();
 const rp = new DiscordRPC.Client({ transport: 'ipc' });
 startWorkRP();
 setInterval(() => startWorkRP(), 5000);
-rp.on('ready', () => console.log("Discrod Rich Presence enabled"));
+rp.on('ready', () => console.log("Discord Rich Presence enabled"));
 rp.login({ clientId }).catch(console.error);
 function startWorkRP() {
     fs.readFile('./config.json', 'utf8', (err, data) => {
